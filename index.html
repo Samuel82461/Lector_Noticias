@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lector de noticias</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header id="encabezado">
+    <h1>Lector de noticias</h1>
+    <p id="subtitulo">Las últimas noticias del espacio</p>
+    <button id="btn-refrescar" type="button">Actualizar noticias</button>
+  </header>
+
+  <main id="principal">
+    <p id="estado" role="status"></p>
+    <section id="noticias" aria-live="polite"></section>
+  </main>
+
+  <footer id="pie">
+    Fuente de los datos: Spaceflight News API
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
